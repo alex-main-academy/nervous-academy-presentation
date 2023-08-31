@@ -1,3 +1,7 @@
+.how .container {
+
+}
+
 .how__title {
     text-align: center;
     font-family: var(--secondary-font);
@@ -11,6 +15,19 @@
         max-width: 70rem;
         margin: 0 auto 4.1rem auto;
     }
+
+    @media screen and (max-width:1280px) {
+        padding-top: 8rem;
+        margin-bottom: 8.4rem;
+        line-height: 1.45;
+    }
+
+    @media screen and (max-width:767px) {
+        padding-top: 14.7rem;
+        font-size: 2.8rem;
+        line-height: 1.32;
+        margin-bottom: 3.4rem;
+    }
 }
 
 .how__list {
@@ -18,6 +35,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width:1280px) {
+        justify-content: center;
+        gap: 18rem;
+    }
+
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+        gap: 6.6rem;
+    }
 }
 
 .how__line {
@@ -28,9 +55,23 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60rem;
+
+    @media screen and (max-width:1280px) {
+        background-size: 18rem;
+    }
+
+    @media screen and (max-width:767px) {
+        transform: rotate(90deg);
+        background-size: 6.6rem;
+    }
 }
 
 .how__image {
     width: 32.3rem;
     height: 32.3rem;
+
+    @media screen and (max-width:1280px) {
+        width: 20.7rem;
+        height: 20.7rem;
+    }
 }
