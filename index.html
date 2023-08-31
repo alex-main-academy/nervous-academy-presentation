@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nervous Academy Presentation</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" sizes="any" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <button class="header__button header__button_prev js-prev-screen">
+                <img src="img/section/header/prev-icon.svg" alt="" width="30" height="30">
+                <span>Назад</span>
+            </button>
+            <img src="img/section/header/logo.svg" alt="logo" width="101" height="101" class="header__logo logo">
+            <button class="header__button header__button_next js-next-screen">
+                <span>Далі</span>
+                <img src="img/section/header/next-icon.svg" alt="" width="30" height="30">
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="screen js-screen home is-active">
+            <picture>
+                <source srcset="img/section/screen1/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen1/bg-m.webp" media="(min-width: 768px)">
+                <img class="screen__background" src="img/section/screen1/bg-s.webp" alt="">
+            </picture>
+            <img src="img/section/screen1/man.webp" alt="" class="screen__center_img"/>
+            <div class="container">
+                <h1 class="home__title">Привіт!</h1>
+                <h2 class="home__subtitle">
+                    А ти знав, що можна заробляти на таргетованій рекламі більше, легше та цікавіше?
+                </h2>
+                <ul class="home__list">
+                    <li class="home__item">
+                        <img src="img/section/screen1/plus-icon.svg" alt="" class="home__icon" width="35" height="34">
+                        <h3 class="home__desc">Без тривалого очікування результату</h3>
+                    </li>
+                    <li class="home__item">
+                        <img src="img/section/screen1/plus-icon.svg" alt="" class="home__icon" width="35" height="34">
+                        <h3 class="home__desc">Без попереднього викупу товарів</h3>
+                    </li>
+                    <li class="home__item">
+                        <img src="img/section/screen1/plus-icon.svg" alt="" class="home__icon" width="35" height="34">
+                        <h3 class="home__desc">Без вічного пошуку клієнтів</h3>
+                    </li>
+                    <li class="home__item">
+                        <img src="img/section/screen1/plus-icon.svg" alt="" class="home__icon" width="35" height="34">
+                        <h3 class="home__desc">Без складних навичок програмування</h3>
+                    </li>
+                    <li class="home__item">
+                        <img src="img/section/screen1/plus-icon.svg" alt="" class="home__icon" width="35" height="34">
+                        <h3 class="home__desc">Без ризику втратити кошти</h3>
+                    </li>
+                    <li class="home__item">
+                        <img src="img/section/screen1/plus-icon.svg" alt="" class="home__icon" width="35" height="34">
+                        <h3 class="home__desc">Без головного болю управління персоналом</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="screen js-screen gift">
+            <picture>
+                <source srcset="img/section/screen2/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <picture>
+                <source srcset="img/section/screen2/man.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__center_img" src="" alt="">
+            </picture>
+            <div class="container">
+                <p class="gift__text">
+                    Наприкінці мануалу ми подаруємо тобі готову зв'язку (креатив, текст та лендинг). Тобі залишиться
+                    лише запустити рекламу та отримати виплату від партнерської мережі.
+                </p>
+            </div>
+        </section>
+
+        <section class="screen js-screen how">
+            <picture>
+                <source srcset="img/section/screen3/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <h2 class="how__title">
+                    Як таргетологу стати медіабаєром?
+                </h2>
+                <ul class="how__list">
+                    <li class="how__item">
+                        <img src="img/section/screen3/target-man.webp" alt="" class="how__image" width="323"
+                            height="323">
+                    </li>
+                    <li class="how__item">
+                        <img src="img/section/screen3/market-man.webp" alt="" class="how__image" width="323"
+                            height="323">
+                    </li>
+                    <li class="how__line"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="screen js-screen step">
+            <picture>
+                <source srcset="img/section/screen4/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 1</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="step__text">Клікай “Зараєструватися” і переходь на CPA-платформу та створи акаунт</p>
+                <a href="https://my.7leads.biz/team/dashboard" class="step__button">
+                    <img src="img/section/screen4/7leads.svg" alt="" width="30" height="32">
+                    <span>Зареєструватися</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="screen js-screen step step__second">
+            <picture>
+                <source srcset="img/section/screen5/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 2</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="step__subtitle">Обери оффер (товар) зі списку для просування</p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen5/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen step step__third">
+            <picture>
+                <source srcset="img/section/screen6/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 3</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="step__subtitle">Створи потік для рекламного оголошення</p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen6/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen step step__fourth">
+            <picture>
+                <source srcset="img/section/screen7/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 4</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="step__subtitle">Створи рекламне відео або банер для даного товару та запусти рекламу на своє
+                    посилання у Фейсбук.</p>
+                <ul class="step__list">
+                    <li class="step__item">
+                        <img src="img/section/screen7/icon1.svg" alt="" width="66" height="66" class="step__icon">
+                    </li>
+                    <li class="step__item">
+                        <img src="img/section/screen7/icon2.svg" alt="" width="66" height="66" class="step__icon">
+                    </li>
+                    <li class="step__item">
+                        <img src="img/section/screen7/icon3.svg" alt="" width="66" height="66" class="step__icon">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="screen js-screen payment">
+            <picture>
+                <source srcset="img/section/screen8/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <h2 class="payment__title">
+                    За кожне підтверджене замовлення платформа нарахує тобі виплату.
+                </h2>
+                <img src="img/section/screen8/true-icon.webp" alt="" class="payment__icon" width="76" height="76">
+                <img src="img/section/screen8/device.webp" alt="" width="500" class="payment__device">
+            </div>
+        </section>
+
+        <section class="screen js-screen interesting">
+            <picture>
+                <source srcset="img/section/screen9/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <h2 class="interesting__title">
+                    А зараз <span>найцікавіше:)</span>
+                </h2>
+                <p class="interesting__desc">
+                    Тепер обіцяна зв'язка та покрокова інструкція запуску реклами.
+                </p>
+            </div>
+        </section>
+
+        <section class="screen js-screen way">
+            <picture>
+                <source srcset="img/section/screen10/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 1</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <div class="way__info">
+                    <div class="way__block">
+                        <p class="title">Збережи текст</p>
+                        <div class="block">
+                            <ul class="way__list js-text-copy">
+                                <li class="way__item">
+                                    Бездротовий подрібнювач
+                                </li>
+                                <li class="way__item">
+                                    ✅ До 60 хвилин роботи від акумулятору
+                                </li>
+                                <li class="way__item">
+                                    ✅ Для овочів, м’яса, зелені та фруктів
+                                </li>
+                                <li class="way__item">
+                                    ✅ Заряджається через USB
+                                </li>
+                            </ul>
+                            <button class="way__copy js-button-copy">
+                                <img src="img/section/screen10/copy.svg" alt="" width="23" height="23"
+                                    class="way__icon">
+                                <span>Копіювати</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="way__block">
+                        <p class="title">Завантаж креатив</p>
+                        <img src="img/section/screen10/video-bg.webp" alt="" class="way__video" width="194"
+                            height="203">
+                        <a href="" class="way__download">
+                            <img src="img/section/screen10/download.svg" alt="" class="way__download_icon" width="20"
+                                height="20">
+                            <span>Завантажити</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__second">
+            <picture>
+                <source srcset="img/section/screen11/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 2</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Знайди на платформі наш успішний оффер "<span class="text-light-blue">Кухонний подрібнювач -
+                        Multifuncional Garlic Beater</span>" і
+                    створи потік на конвертний ленд - "Ленд 4 Ogomart"
+                </p>
+                <p class="way__text_bold">
+                    Після чого натисни <span>“Створити потік”</span>
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen11/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__second_one">
+            <picture>
+                <source srcset="img/section/screen12/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 2.1</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Заповнюємо все як на скріні нижче, тільки придумай <span class="accent-color">інший піддомен</span>.
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen12/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__second_two">
+            <picture>
+                <source srcset="img/section/screen13/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 2.2</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    <span class="orange-color">Обов'язково</span> встав у потік піксель із <span
+                        class="accent-color">рекламного кабінету Фейсбук</span>, щоб рекламна кампанія
+                    оптимізувалася і твої ліди були ще дешевшими! Де його знайти покажемо далі. Зараз збережи потік,
+                    потім відредагуєш і вставиш піксель.
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen13/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__second_three">
+            <picture>
+                <source srcset="img/section/screen14/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 2.3</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Тепер у тебе є посилання на твій особистий ленд із товаром, на який ти <span
+                        class="accent-color">запускатимеш рекламу.</span>
+                </p>
+                <img src="img/section/screen14/screenshot.webp" alt="" class="way__image" width="1338">
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__third">
+            <picture>
+                <source srcset="img/section/screen15/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 3</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Заходь до рекламного кабінету за <a href="https://www.facebook.com/">посиланням</a>, створюй
+                    кампанію з метою <span class="accent-color">“Ліди”</span>.
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen15/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__fourth">
+            <picture>
+                <source srcset="img/section/screen16/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 4</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    На рівні кампанії постав <span class="accent-color">бюджет 10 $</span>
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen16/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__fifth">
+            <picture>
+                <source srcset="img/section/screen17/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 5</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    На рівні групи створи піксель. ID пікселя і необхідно внести під час створення потоку.
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen17/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__sixth">
+            <picture>
+                <source srcset="img/section/screen18/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 6</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Ось кілька налаштувань, які <span>обов'язково</span> потрібно застосувати:
+                </p>
+                <div class="block">
+                    <ul class="way__list">
+                        <li class="way__item">"Вікно атрибуції" - 1 день після кліку</li>
+                        <li class="way__item">Демографічні налаштування нашої ЦА - Ж30+</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__seventh">
+            <picture>
+                <source srcset="img/section/screen19/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 7</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Завантажуй наші креативи, текст та заголовок в оголошення
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen19/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__eight">
+            <picture>
+                <source srcset="img/section/screen20/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 8</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    Вставляй посилання на потік, кнопка: <span class="accent-color">"У магазин"</span>
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen20/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__nine">
+            <picture>
+                <source srcset="img/section/screen21/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 9</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <p class="way__text">
+                    <span class="accent-color">Запускай</span> кампанію та чекай ліди
+                </p>
+                <div class="step__screenshot">
+                    <img src="img/section/screen21/device.webp" alt="" class="step__device">
+                    <button class="step__see">Дивитись</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen js-screen way way__ten">
+            <picture>
+                <source srcset="img/section/screen22/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <div class="step__block">
+                    <p class="step__title">Крок 10</p>
+                    <div class="step__line">
+                        <span class="step__active"></span>
+                    </div>
+                </div>
+                <img src="img/section/screen22/true-icon.webp" alt="" class="way__true" width="76" height="76">
+                <p class="way__text">
+                    <span class="accent-color">Запускай</span> кампанію та чекай ліди
+                </p>
+                <img src="img/section/screen22/screenshot.webp" alt="" class="way__screenshot">
+            </div>
+        </section>
+
+        <section class="screen js-screen bundle">
+            <picture>
+                <source srcset="img/section/screen23/bg.webp" media="(min-width: 1200px)">
+                <source srcset="">
+                <img class="screen__background" src="" alt="">
+            </picture>
+            <div class="container">
+                <h2 class="bundle__title">
+                    А це <span>лише одна</span> зв’язка...) 
+                </h2>
+                <p class="bundle__text">
+                    Хочеш сам вибирати оффери і створювати зв'язки, що конвертують?
+                </p>
+                <p class="bundle__register">
+                    Реєструйся на <span>Free</span> Воркшоп щоб дізнатись більше зв’язок з офферами!
+                </p>
+                <a href="" class="bundle__button">Зареєструватися</a>
+                <img src="img/section/screen23/money.webp" alt="" class="bundle__money">
+            </div>
+        </section>
+    </main>
+
+    <!-- <script defer src="js/main.js"></script> -->
+</body>
+
+</html>

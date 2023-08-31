@@ -1,0 +1,57 @@
+.bundle__title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: var(--secondary-font);
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+
+    span {
+        color: var(--accent-text-color);
+    }
+}
+
+.bundle__text {
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2;
+}
+
+.bundle__register {
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.7;
+    max-width: 60rem;
+    margin: 0 auto 2.6rem auto;
+
+    span {
+        color: var(--accent-text-color);
+    }
+}
+
+.bundle__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    width: 34.4rem;
+    height: 9.2rem;
+    border-radius: 6.4rem 1rem;
+    background: var(--button-back-color);
+    box-shadow: 0rem .3rem 11rem 0rem rgba(63, 104, 210, 0.37);
+    backdrop-filter: blur(24px);
+
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.bundle__money {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
