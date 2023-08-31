@@ -1,8 +1,4 @@
 .home {
-    @media screen and (max-width:767px) {
-        padding-top: 13rem;
-    }
-
     .container {
         max-width: 170rem;
 
@@ -11,8 +7,9 @@
         }
         
         @media screen and (max-width:767px) {
-            max-width: 320px;
-            overflow: scroll;
+            max-width: 32rem;
+            padding-top: 13rem;
+            padding-bottom: 5rem;
         }
     }
 }
@@ -79,7 +76,7 @@
 
     @media screen and (max-width:767px) {
         margin-top: 1.8rem;
-        max-width: 32rem;
+        max-width: 100%;
         row-gap: 1.4rem;
     }
 }
@@ -172,5 +169,6 @@
     @media screen and (max-width:767px) {
         line-height: 1.6;
         text-align: center;
+        font-size: 1.4rem;
     }
 }
