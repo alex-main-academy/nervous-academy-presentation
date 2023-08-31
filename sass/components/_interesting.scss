@@ -3,6 +3,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    @media screen and (max-width:1280px) {
+        width: 73rem;
+    }
+
+    @media screen and (max-width:767px) {
+        width: 32rem;
+        padding-top: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .interesting__title {
@@ -17,6 +30,17 @@
     span {
         color: var(--accent-text-color);
     }
+
+    @media screen and (max-width:1280px) {
+        font-size: 4.8rem;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
+    @media screen and (max-width:767px) {
+        font-size: 2.6rem;
+        padding-bottom: 2.9rem;
+    }
 }
 
 .interesting__desc {
@@ -26,4 +50,12 @@
     line-height: 1.5;
     max-width: 84.7rem;
     margin: 0 auto;
+
+    @media screen and (max-width:1280px) {
+        max-width: 56.6rem;
+    }
+
+    @media screen and (max-width:767px) {
+        font-size: 2.4rem;
+    }
 }

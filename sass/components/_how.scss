@@ -1,5 +1,7 @@
 .how .container {
-
+    @media screen and (max-width:767px) {
+        padding-top: 14.7rem;
+    }
 }
 
 .how__title {
@@ -23,7 +25,7 @@
     }
 
     @media screen and (max-width:767px) {
-        padding-top: 14.7rem;
+        padding-top: 0;
         font-size: 2.8rem;
         line-height: 1.32;
         margin-bottom: 3.4rem;
