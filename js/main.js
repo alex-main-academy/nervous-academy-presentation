@@ -11,6 +11,18 @@ const handleChangeActiveScreen = () => {
         if (i === screenIndex) {
             screens[i].classList.add("is-active");
         }
+
+        if (screenIndex === screens.length - 1) {
+            nextScreenBtn.classList.remove("active");
+        } else {
+            nextScreenBtn.classList.add("active");
+        }
+
+        if (screenIndex === 0) {
+            prevScreenBtn.classList.remove("active");
+        } else {
+            prevScreenBtn.classList.add("active");
+        }
     }
 };
 

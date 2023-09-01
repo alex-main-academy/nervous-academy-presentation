@@ -15,13 +15,19 @@
     <header class="header">
         <nav class="header__nav">
             <button class="header__button header__button_prev js-prev-screen">
-                <img src="img/section/header/prev-icon.svg" alt="" width="30" height="30">
+                <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.3984 6.84788L11.6015 15.6448L20.3984 24.4417" stroke-width="2.26206"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
                 <span>Назад</span>
             </button>
             <img src="img/section/header/logo.svg" alt="logo" width="101" height="101" class="header__logo logo">
-            <button class="header__button header__button_next js-next-screen">
+            <button class="header__button header__button_next js-next-screen active">
                 <span>Далі</span>
-                <img src="img/section/header/next-icon.svg" alt="" width="30" height="30">
+                <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.6016 6.84788L20.3985 15.6448L11.6016 24.4417" stroke-width="2.26206"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
             </button>
         </nav>
     </header>
@@ -236,11 +242,11 @@
             </div>
         </section>
 
-        <section class="screen js-screen way">
-            <picture>
-                <source srcset="img/section/screen10/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+        <section class="screen js-screen way way__first">
+            <picture class="screen__background">
+                <source srcset="img/section/screen10/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen10/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen10/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -288,11 +294,11 @@
             </div>
         </section>
 
-        <section class="screen js-screen way way__second">
-            <picture>
-                <source srcset="img/section/screen11/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+        <section class="screen js-screen way way__second ">
+            <picture class="screen__background">
+                <source srcset="img/section/screen11/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen11/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen11/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -309,18 +315,19 @@
                 <p class="way__text_bold">
                     Після чого натисни <span>“Створити потік”</span>
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen11/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen11/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen11/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen11/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen way way__second_one">
-            <picture>
-                <source srcset="img/section/screen12/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen12/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen12/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen12/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -332,18 +339,19 @@
                 <p class="way__text">
                     Заповнюємо все як на скріні нижче, тільки придумай <span class="accent-color">інший піддомен</span>.
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen12/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen12/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen12/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen12/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
-        <section class="screen js-screen way way__second_two">
-            <picture>
-                <source srcset="img/section/screen13/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+        <section class="screen js-screen way way__second_two ">
+            <picture class="screen__background">
+                <source srcset="img/section/screen13/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen13/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen13/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -358,18 +366,19 @@
                     оптимізувалася і твої ліди були ще дешевшими! Де його знайти покажемо далі. Зараз збережи потік,
                     потім відредагуєш і вставиш піксель.
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen13/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen13/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen13/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen13/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen way way__second_three">
-            <picture>
-                <source srcset="img/section/screen14/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen14/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen14/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen14/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -382,15 +391,19 @@
                     Тепер у тебе є посилання на твій особистий ленд із товаром, на який ти <span
                         class="accent-color">запускатимеш рекламу.</span>
                 </p>
-                <img src="img/section/screen14/screenshot.webp" alt="" class="way__image" width="1338">
+                <picture class="way__image">
+                    <source srcset="img/section/screen14/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen14/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen14/device-s.webp" alt="">
+                </picture>
             </div>
         </section>
 
-        <section class="screen js-screen way way__third">
-            <picture>
-                <source srcset="img/section/screen15/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+        <section class="screen js-screen way way__third  ">
+            <picture class="screen__background">
+                <source srcset="img/section/screen15/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen15/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen15/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -403,18 +416,19 @@
                     Заходь до рекламного кабінету за <a href="https://www.facebook.com/">посиланням</a>, створюй
                     кампанію з метою <span class="accent-color">“Ліди”</span>.
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen15/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen15/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen15/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen15/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen way way__fourth">
-            <picture>
-                <source srcset="img/section/screen16/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen16/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen16/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen16/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -426,18 +440,19 @@
                 <p class="way__text">
                     На рівні кампанії постав <span class="accent-color">бюджет 10 $</span>
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen16/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen16/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen16/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen16/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
-        <section class="screen js-screen way way__fifth">
-            <picture>
-                <source srcset="img/section/screen17/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+        <section class="screen js-screen way way__fifth ">
+            <picture class="screen__background">
+                <source srcset="img/section/screen17/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen17/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen17/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -449,18 +464,19 @@
                 <p class="way__text">
                     На рівні групи створи піксель. ID пікселя і необхідно внести під час створення потоку.
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen17/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen17/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen17/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen17/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen way way__sixth">
-            <picture>
-                <source srcset="img/section/screen18/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen18/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen18/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen18/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -482,10 +498,10 @@
         </section>
 
         <section class="screen js-screen way way__seventh">
-            <picture>
-                <source srcset="img/section/screen19/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen19/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen19/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen19/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -497,18 +513,19 @@
                 <p class="way__text">
                     Завантажуй наші креативи, текст та заголовок в оголошення
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen19/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen19/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen19/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen19/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
-        <section class="screen js-screen way way__eight">
-            <picture>
-                <source srcset="img/section/screen20/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+        <section class="screen js-screen way way__eight ">
+            <picture class="screen__background">
+                <source srcset="img/section/screen20/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen20/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen20/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -520,18 +537,19 @@
                 <p class="way__text">
                     Вставляй посилання на потік, кнопка: <span class="accent-color">"У магазин"</span>
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen20/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen20/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen20/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen20/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen way way__nine">
-            <picture>
-                <source srcset="img/section/screen21/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen21/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen21/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen21/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -543,18 +561,19 @@
                 <p class="way__text">
                     <span class="accent-color">Запускай</span> кампанію та чекай ліди
                 </p>
-                <div class="step__screenshot">
-                    <img src="img/section/screen21/device.webp" alt="" class="step__device">
-                    <button class="step__see">Дивитись</button>
-                </div>
+                <picture class="step__screenshot">
+                    <source srcset="img/section/screen21/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen21/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen21/device-s.webp" alt="" class="step__device">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen way way__ten">
-            <picture>
-                <source srcset="img/section/screen22/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen22/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen22/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen22/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <div class="step__block">
@@ -565,17 +584,21 @@
                 </div>
                 <img src="img/section/screen22/true-icon.webp" alt="" class="way__true" width="76" height="76">
                 <p class="way__text">
-                    <span class="accent-color">Запускай</span> кампанію та чекай ліди
+                    Отримуй виплату та кидай роботу таргетологам :)
                 </p>
-                <img src="img/section/screen22/screenshot.webp" alt="" class="way__screenshot">
+                <picture class="way__image">
+                    <source srcset="img/section/screen22/device.webp" media="(min-width: 1280px)">
+                    <source srcset="img/section/screen22/device-m.webp" media="(min-width: 768px)">
+                    <img src="img/section/screen22/device-s.webp" alt="">
+                </picture>
             </div>
         </section>
 
         <section class="screen js-screen bundle">
-            <picture>
-                <source srcset="img/section/screen23/bg.webp" media="(min-width: 1200px)">
-                <source srcset="">
-                <img class="screen__background" src="" alt="">
+            <picture class="screen__background">
+                <source srcset="img/section/screen23/bg.webp" media="(min-width: 1280px)">
+                <source srcset="img/section/screen23/bg-m.webp" media="(min-width: 768px)">
+                <img src="img/section/screen23/bg-s.webp" alt="">
             </picture>
             <div class="container">
                 <h2 class="bundle__title">
